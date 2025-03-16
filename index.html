@@ -2,15 +2,23 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href=".assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="assets/main.css">
+  
   <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
 </head>
 <body>
+ <!-- Sign-up form start -->
   <div class="container">
     <img src="assets/images/illustration-sign-up-mobile.svg" alt="mobile logo image" class="mobile-logo">
 
@@ -18,44 +26,21 @@
       <h1>Stay updated!</h1>
       <p>Join 60,000+ product managers receiving monthly updates on:</p>
       <ul>
-        <li><img src="assets/images/icon-list.svg" alt="icon-list-logo"><p>Product discovery and building what matters</p></li>
-        <li class="measuringSuccess"><img src="assets/images/icon-list.svg" alt="icon-list-logo"><p>Measuring to ensure updates are a success</p></li>
-        <li><img src="assets/images/icon-list.svg" alt="icon-list-logo"><p class="muchMore">And much more!</p></li>
+        <li><div><img src="assets/images/icon-list.svg" alt="icon-list-logo"><p>Product discovery and building what matters</p></div></li>
+        <li><div><img src="assets/images/icon-list.svg" alt="icon-list-logo"> <p>Measuring to ensure updates are a success</p></div></li>
+        <li><div><img src="assets/images/icon-list.svg" alt="icon-list-logo"><p>And much more!</p></div></li>
       </ul>
-      <label for="email" class="emailAddress">Email address</label>
-      <form action="index.html" method="post">
-        <input class="email" type="email" id="email" name="email" placeholder="email@company.com">
+      <p class="emailAddress">Email address</p>
+
+      <form action = "index.html" method="post">
+        <input class="email" type="email" id="email" name="email" placeholder="  email@company.com">
         <button type="submit">Subscribe to monthly newsletter</button>
       </form>
+      
     </div>
+
+
   </div>
 
-
- 
-
-
-
- 
-
- 
-
- <!-- Sign-up form end -->
-
- <!-- Success message start -->
-
- <!--
- Thanks for subscribing!
-
- A confirmation email has been sent to ash@loremcompany.com. 
- Please open it and click the button inside to confirm your subscription.
-
- Dismiss message -->
-
- <!-- Success message end -->
- 
- <div class="attribution">
-   Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-   Coded by <a href="#">Your Name Here</a>.
- </div>
-</body>
-</html>
+  </body>
+  </html>
