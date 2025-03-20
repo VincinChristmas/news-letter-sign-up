@@ -20,26 +20,44 @@
 <body>
  <!-- Sign-up form start -->
   <div class="container">
-    <img src="assets/images/illustration-sign-up-mobile.svg" alt="mobile logo image" class="mobile-logo">
+    <div class="container__form--left">
+      <div class="container__form--left--header">
+        <h1>Stay Updated!</h1>
+        <p>Join 60,000+ product managers receiving monthly updates on:</p>
+      </div>
+      <div class="container__form--left--list">
+        <ul>
+          <li>
+            <img src="assets/images/icon-list.svg" alt="icon-list--img"> 
+            <p>Product discovery and building what matters</p>
+          </li>
+          <li>
+            <img src="assets/images/icon-list.svg" alt="icon-list--img">
+            <p>Measuring to ensure updates are a success</p>
+          </li>
+          <li>
+            <img src="assets/images/icon-list.svg" alt="icon-list--img">
+            <p>And much more!</p>
+          </li>
+        </ul>
+      </div>
 
-    <div class="form-container">
-      <h1>Stay updated!</h1>
-      <p>Join 60,000+ product managers receiving monthly updates on:</p>
-      <ul>
-        <li><div><img src="assets/images/icon-list.svg" alt="icon-list-logo"><p>Product discovery and building what matters</p></div></li>
-        <li><div><img src="assets/images/icon-list.svg" alt="icon-list-logo"> <p>Measuring to ensure updates are a success</p></div></li>
-        <li><div><img src="assets/images/icon-list.svg" alt="icon-list-logo"><p>And much more!</p></div></li>
-      </ul>
-      <p class="emailAddress">Email address</p>
-
-      <form action = "index.html" method="post">
-        <input class="email" type="email" id="email" name="email" placeholder="  email@company.com">
-        <button type="submit">Subscribe to monthly newsletter</button>
-      </form>
-      
+      <div class="container__form--left--form">
+        <p>Email address</p>
+        <form action="" method="">
+          <div class="container__form--left--form--input">
+            <input type="email" name="email" id="email" placeholder=" email@company.com" required>
+            <button type="submit" name="submit" id="submit">Subscribe to monthly newsletter</button>
+          </div>
+        </form>
+      </div>
     </div>
+    <div class="container__form--right">
+      <img src="assets/images/illustration-sign-up-desktop.svg" alt="illustration--img">
+    </div>
+    
 
-
+    
   </div>
 
   </body>

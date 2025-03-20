@@ -75,6 +75,10 @@
 
 
 
+  
+
+
+
 
   /***THE MEDIA QUERIES***/
   @media only screen and (max-width: 1215px) {
@@ -84,75 +88,6 @@
   
   /******TABLET******/
   @media only screen and (max-width: 1023px) {
-	.mobile-logo {
-		max-width: 100%;
-		width: 100%;
-	}
-	
-	.form-container {
-		display: flex;
-		flex-direction: column;
-		padding-left: 1.3rem;
-		padding-right: 1.3rem;
-		margin-top:2rem;
-		
-		h1 {
-			font-size: 2rem;
-			margin-bottom: 1rem;
-			color: var(--DarkSlateGrey);
-		}
-		
-		ul {
-			list-style: none;
-			padding: 0;
-			margin-top: 1rem;
-
-			div {
-				display: flex;
-				align-items: center;
-				margin-bottom: 1rem;
-			}
-
-			p {
-				align-self: center;
-			}
-		
-			img {
-				margin-right: 1rem;
-			}
-		}
-	
-		.emailAddress {
-			font-weight: 700;
-			margin-top: 2rem;
-			margin-bottom: 0.4rem;
-		}
-	
-		.email, button {
-			width: 100%;
-		}
-	
-		.email {
-			padding: 0.5rem;
-			border: 1px solid var(--Grey);
-			border-radius: 5px;
-			margin-bottom: 1rem;
-		}
-	
-		button {
-			background-color: var(--DarkSlateGrey);
-			color: var(--White);
-			padding: 0.5rem;
-			border: none;
-			border-radius: 5px;
-			cursor: pointer;
-			font-weight: 700;
-			font-size: 1rem;
-		}
-	
-		margin-bottom: 1rem;
-	}
-
 	
   
   }
@@ -161,74 +96,6 @@
   
   /******MOBILE******/
   @media only screen and (max-width: 768px) {
-	.mobile-logo {
-		max-width: 100%;
-		width: 100%;
-	}
 	
-	.form-container {
-		display: flex;
-		flex-direction: column;
-		padding-left: 1.3rem;
-		padding-right: 1.3rem;
-		margin-top:2rem;
-		
-		h1 {
-			font-size: 2rem;
-			margin-bottom: 1rem;
-			color: var(--DarkSlateGrey);
-		}
-		
-		ul {
-			list-style: none;
-			padding: 0;
-			margin-top: 1rem;
-
-			div {
-				display: flex;
-				align-items: center;
-				margin-bottom: 1rem;
-			}
-
-			p {
-				align-self: center;
-			}
-		
-			img {
-				margin-right: 1rem;
-			}
-		}
-	
-		.emailAddress {
-			font-weight: 700;
-			margin-top: 2rem;
-			margin-bottom: 0.4rem;
-		}
-	
-		.email, button {
-			width: 100%;
-		}
-	
-		.email {
-			padding: 0.5rem;
-			border: 1px solid var(--Grey);
-			border-radius: 5px;
-			margin-bottom: 1rem;
-		}
-	
-		button {
-			background-color: var(--DarkSlateGrey);
-			color: var(--White);
-			padding: 0.5rem;
-			border: none;
-			border-radius: 5px;
-			cursor: pointer;
-			font-weight: 700;
-			font-size: 1rem;
-		}
-	
-		margin-bottom: 1rem;
-	}
-
 	
   }
